@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>HighStock Compare Demo</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Historical Stock Price Demo</h1>
+    </div>
+</header>
+<div id="main-content" class="container">
+    <div class="row">
+        <div class="span2">
+            <label for="stockSym">Stock Symbol:</label>
+            <input id="stockSym" type="text" autocomplete="off" data-provide="typeahead" size="10" required>
+            <br>
+            <label for="days">Number of days:</label>
+            <input id="days" type="text" size="4" maxlength="3" required>
+            <br>
+            <button id="btn-getData" class="btn btn-success">Get Data</button>
+        </div>
+        <div class="span10">
+            <div id="chart"> </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+        	<div class="span2">
+            	Built With:
+	            <ul class="unstyled">
+	                <li><a href="http://code.jquery.com/jquery-1.8.3.js" target="_blank">jQuery v1.8.3</a></li>
+	                <li><a href="https://github.com/twitter/bootstrap/tree/v2.3.1" target="_blank">Bootstrap v2.3.1</a></li>
+	                <li><a href="http://www.highcharts.com/downloads/zips/Highstock-1.2.5.zip" target="_blank">HighStock v1.2.5</a> </li>
+	            </ul>
+            </div>
+            <div class="span4">
+            	API's:
+                <ul class="unstyled">
+                	<li><a href="http://dev.markitondemand.com/" target="_blank">Markit On Demand - Company Lookup API</a></li>
+                    <li><a href="http://dev.markitondemand.com/" target="_blank">Markit On Demand - Stock Quote API</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>--> 
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.3.min.js"><\/script>')</script> 
+<script src="js/libs/jquery-ui-1.8.15.min.js"></script>
+<script src="js/libs/bootstrap.js"></script> 
+<script src="js/libs/highstock.js"></script> 
+<script src="js/libs/exporting.js"></script>
+<script src="js/hs-compare-multi.js"></script>
+<script>
+	$('#days').keyup(function(e) {
+        if (e.which == 13) {
+			$('#btn-getData').click();
+		}
+    });
+</script>
+</body>
+</html>
