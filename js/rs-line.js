@@ -251,5 +251,5 @@ $("#stockSym").typeahead({
         companyName = item;
         return map[item];
     },
-    items: 3
+    items: 10
 });
