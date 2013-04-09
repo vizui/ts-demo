@@ -31,6 +31,8 @@ All of the demos display a chart of historical data based on an entered stock sy
 <a href="http://vizui.github.io/ts-demo/hs-compare-multi.html">hs-compare-multi.html</a> - uses HighStock<br>
 <a href="http://vizui.github.io/ts-demo/hs-compare-multi-co.html">hs-compare-multi-co.html</a> - uses HighStock
 
+<h3>Results</h3>
+Rickshaw looked promising since it uses d3 that can be accessed through functions without having to know <a href="http://d3js.org/">d3</a> specifics. HighStock can produce SVG based charts and is the clear winner for getting a feature rich chart up and running in the least amount of time but it requires a paid license.
 <table><thead><tr>
         	<th>&nbsp;</th>
             <th>Pros</th>
