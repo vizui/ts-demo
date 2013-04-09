@@ -1,9 +1,21 @@
-ts-demo
+Time Series Demo
 =======
 
-Time Series Demo
+<h2>Goals:</h2>
+
+- explore the capabilities of the JS charting/graphing libraries HighStock and Rickshaw
+- investigate a publicly available API that provides stock data or other times series data
+- investigate other time series libraries
 
 These demos were created while exploring the capabilities of the JS charting/graphing libraries HighStock and Rickshaw.
+
+Criteria for choosing a library:
+
+- Is it open source (or at least free to try)?
+- Does the library have good documentation, community support, and currently maintained?
+- What are the ‘out of the box’ features?
+- How easy is it to learn and customize?
+
 
 The following libraries and API's were used to create the pages:
 
