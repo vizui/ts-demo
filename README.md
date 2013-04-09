@@ -1,11 +1,11 @@
-Time Series Demo
+Time Series Demo for FCC Fedex Day (March 11-12, 2013)
 =======
 
 <h2>Goals:</h2>
 
 - explore the capabilities of the JS charting/graphing libraries HighStock and Rickshaw
-- investigate a publicly available API that provides stock data or other times series data
-- investigate other time series libraries
+- implement a publicly available API that provides stock data or other times series data
+- investigate other time series libraries (time permitting)
 
 These demos were created while exploring the capabilities of the JS charting/graphing libraries HighStock and Rickshaw.
 
