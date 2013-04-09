@@ -27,6 +27,6 @@ Time Series Demo for FCC Fedex Day (March 11-12, 2013)
 <h3>Demos</h3>
 All of the demos display a chart of historical data based on an entered stock symbol and number of days.
 
-<b>rs-line.html</b> - uses Ricksaw<br>
-<b>hs-compare-multi.html</b> - uses HighStock<br>
-<b>hs-compare-multi-co.html</b> - uses HighStock
+<a href="http://vizui.github.io/ts-demo/rs-line.html">rs-line.html</a> - uses Ricksaw<br>
+<a href="http://vizui.github.io/ts-demo/hs-compare-multi.html">hs-compare-multi.html</a> - uses HighStock<br>
+<a href="http://vizui.github.io/ts-demo/hs-compare-multi-co.html">hs-compare-multi-co.html</a> - uses HighStock
