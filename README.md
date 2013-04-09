@@ -39,7 +39,7 @@ All of the demos display a chart of historical data based on an entered stock sy
     </thead>
     <tbody>
     	<tr>
-        	<td>Rickshaw (built by Shutterstock)</td>
+        	<td><a href="http://code.shutterstock.com/rickshaw/examples/">Rickshaw (built by Shutterstock)</a></td>
             <td>- Built on D3<br> - Can be highly customized<br> - Open Source</td>
             <td>- Sparse documentation<br> - Learning curve<br> -	Lots of code for little return</td>
         </tr>
