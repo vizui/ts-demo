@@ -30,3 +30,23 @@ All of the demos display a chart of historical data based on an entered stock sy
 <a href="http://vizui.github.io/ts-demo/rs-line.html">rs-line.html</a> - uses Ricksaw<br>
 <a href="http://vizui.github.io/ts-demo/hs-compare-multi.html">hs-compare-multi.html</a> - uses HighStock<br>
 <a href="http://vizui.github.io/ts-demo/hs-compare-multi-co.html">hs-compare-multi-co.html</a> - uses HighStock
+
+<table><thead><tr>
+        	<th>&nbsp;</th>
+            <th>Pros</th>
+            <th>Cons</th>
+        </tr>
+    </thead>
+    <tbody>
+    	<tr>
+        	<td>Rickshaw (built by Shutterstock)</td>
+            <td>- Built on D3<br> - Can be highly customized<br> - Open Source</td>
+            <td>- Sparse documentation<br> - Learning curve<br> -	Lots of code for little return</td>
+        </tr>
+        <tr>
+          <td><a href="http://www.highcharts.com/products/highstock">HighStock</a></td>
+            <td>- Easy to setup and configure<br> - Feature rich<br>- Well supported and documented</td>
+            <td style="vertical-align: top;">- Requires paid license<br> - Library is catered only for time series</td>
+        </tr>
+    </tbody>
+</table>
